@@ -63,3 +63,29 @@ function processarResposta() {
     }
   }
 
+  function obterHora() {
+    var horaInformada = document.getElementById('hora').value;
+    var partesHora = horaInformada.split(':');
+    var hora = parseInt(partesHora[0], 10);
+    console.log("Estou na função hora...hora informada " + horaInformada);
+    var perioDia = "noite";
+    if(hora >= 5 && hora < 12){
+      perioDia = "manhã"
+    };
+    if(hora >= 12 && hora < 18){
+      perioDia = "tarde"
+    };
+    switch (perioDia) {
+      case 'manhã':
+        alert('Bom dia!');
+        break;
+      case 'tarde':
+        alert('Boa tarde!');
+        break;
+      default:
+        alert('Boa noite!');
+        break;
+    }
+  }
+    
+
