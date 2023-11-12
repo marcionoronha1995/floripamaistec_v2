@@ -3,23 +3,61 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topPagina {
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    width: 100vw;
+    background-color: #003049;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-nav{
+    padding: 0 10em;
+    display: flex;
+}
+
+.menu nav a{
+    color: #FCBF49;
+    padding: 0 1em;
+}
+
+.top{
+    width:100vw;
+    height: 6em;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 body{
     background-color: bisque;
-    border: 0em;
+    border: 0px;
 }
 
 .paginaGeral {
     background-color: bisque;
     border: 1px solid #c3c3c3;
+    width: 100vw;
     display: flex;
     justify-content: space-around;  
 
 }
 
 .lateralDireita {
-    background-color: blueviolet;    
+    background-color: blueviolet;
+    width: 100vw;   
     display: flex;
     justify-content: space-around;
 
@@ -27,6 +65,7 @@ body{
 
 .lateralEsquerda {
     background-color: aqua;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
