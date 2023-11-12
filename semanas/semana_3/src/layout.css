@@ -6,73 +6,110 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.topPagina {
-    height: 8em;
-    display: flex;
-    flex-direction: column;
+body{
+    border: 0px;
+}
+.titulo{
+    font-size: 3em;
+    color: #FCBF49;
 }
 
-.menu{
+.subtitulo{
+    font-size: 2em;
+}
+
+.topPagina {
     width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topPagina-menu{
+    height:5em;
     background-color: #003049;
-    height: 3em;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.menu-nav{
-    padding: 0 10em;
+.topPagina-menu-nav{
     display: flex;
 }
 
-.menu nav a{
+.topPagina-menu nav a{
     color: #FCBF49;
     padding: 0 1em;
 }
 
-.top{
-    width:100vw;
-    height: 6em;
-    background-color: red;
+.topPagina-top{
+    width: 100vw;
+    min-height: 100vh;
     display: flex;
+    padding: 0 4em;
     flex-direction: column;
     justify-content: center;
+    background-image: url("/./semanas/semana_3/assets/imagens/pexels-fauxels-3184299.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-body{
-    background-color: bisque;
-    border: 0px;
+.topPagina-top h3{
+    color:#EAE2B7;
+    
+
 }
+
 
 .paginaGeral {
     background-color: bisque;
     border: 1px solid #c3c3c3;
-    width: 100vw;
     display: flex;
-    justify-content: space-around;  
+    flex-direction: column;
+
 
 }
 
 .lateralDireita {
-    background-color: blueviolet;
     width: 100vw;   
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.lateralEsquerda {
-    background-color: aqua;
-    width: 100vw;
+    padding: 0 0;
+    border-radius: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#contatos{
-    background-color: bisque;
+
+
+#apresentacao{
+    background-color: rgb(255, 0, 242);
+    width:100vw;
+    height: 30vh;
+    padding: 0 4em;
+    display: flex;
+    align-items: center;
+}
+
+#contato{
+    background-color:#FCBF49;
+    width:100vw;
+    height: 30vh;
+    padding: 0 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
+.lateralEsquerda {
+    background-color: aqua;
+    width: 100vw;
+    padding: 0 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
