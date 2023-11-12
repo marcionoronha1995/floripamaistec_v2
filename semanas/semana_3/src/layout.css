@@ -31,3 +31,10 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+#contatos{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
