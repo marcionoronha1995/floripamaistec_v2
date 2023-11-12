@@ -3,107 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <title>Document</title>
+    <link rel="stylesheet" href="src/layout.css">
+    
+    <title>Márcio Noronha 1995</title>
 </head>
 <body>
-    <div>
+    <div class="top">
         <h1>Currículo Márcio Noronha 1995</h1>
         <p>Javascript | HTML | CSS</p>
-        <h2>Apresentação Profissional</h2>
-        <p>
-        Seja bem-vindo à minha página profissional! Aqui, compartilho informações relevantes sobre minha trajetória profissional, habilidades e interesses. Sou entusiasta por desafios e apaixonado por inovação, sempre em busca de aprimorar minhas habilidades para oferecer soluções eficazes.
-        <h2>Contato</h2>
-        <p>
-        Fique à vontade para entrar em contato comigo para discutir oportunidades de colaboração, projetos ou para compartilhar ideias. Estou disponível através do <a href="mail:marcionoronha1995@gmail.com">marcionoronha1995@gmail.com</a>.
-        </p>
-        <br>
-        <p>
-        Agradeço por visitar minha página profissional e espero que possamos conectar-nos em breve!
-        </p>
-
+ 
     </div>
-    <div>
-        <h2>Um pouco do meu trabalho</h2>
-        <p>Esta vendo, vamos ver! Escreva duas frases pequenas</p>
-        <form>
-            <label for="primeiraPalavra">Primeira palavra</label>
-            <input type="text" id="primeiraPalavra" name="primeiraPalavra" maxlength="50" size="50"><br>
-            <label for="segundaPalavra">Segunda palavra</label>
-            <input type="text" id="segundaPalavra" name="segundaPalavra" maxlength="50" size="50"><br><br>
-            <input type="button" value="Gravar palavras" onclick="lerDadosHTML_Palavra()">
-            
-        </form>
-        <h2>Você escreveu na primeira frase:</h2><br><p id="textoUm_Html"></p>
-        <p>Esta frase protegida por encriptação ficaria:</p>
-        <!--
-            Converter o texto para encriptado
-        -->
-        <h2>Você escreveu na segunda frase:</h2><br><p id="textoDois_Html"></p>
-        <p>Esta frase protegida por encriptação ficaria:</p>
-        <!--
-            Converter o texto para encriptado
-        --> 
-    </div>
-    <div>
-        <h1>Que horas são?</h1>
+    <div class="paginaGeral">
 
-        <form id="formHora">
-            <label for="hora">Por favor, informe a hora:</label>
-            <input type="time" id="hora" name="hora" required><br><br>
-
-            <button type="button" onclick="obterHora()">Gravar a hora</button>
-        </form>
-    </div>
-    <div>
-        <h2>Faça uma escolha, selecione uma ou mais abaixo</h2>
-        <form>
-            <input type="checkbox" name="macaEscolha" id="macaEscolha" value="Maça">
-            <label for="macaEscolha">Maça</label><br>
-            <input type="checkbox" name="batataEscolha" id="batataEscolha" value="Batata">
-            <label for="batataEscolha">Batata</label><br>
-            <input type="checkbox" name="positivoEscolha" id="positivoEscolha" value="Itenção positiva">
-            <label for="positivoEscolha">Itenção positiva</label><br>
-            <input type="checkbox" name="flexibilidadeEscolha" id="flexibilidadeEscolha" value="Flexibilidade">
-            <label for="flexibilidadeEscolha">Flexibilidade</label><br><br>
-            <input type="button" value="Gravar escolhas" onclick="lerDadosHTML_Checkbox()">
-        </form>
-        <!--
-            Veja se tem uma IA que conecta via API e gera e devolve a imagem
-        -->
-    </div>
-    <div>
-        <h2>Checkboxes</h2>
-<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
-
-        <form>
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-            <label for="vehicle1"> I have a bike</label><br>
-            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-            <label for="vehicle2"> I have a car</label><br>
-            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-            <label for="vehicle3"> I have a boat</label><br><br>
-            <input type="button" value="Grava a sua escolha" onclick="lerDadosHTML_Checkbox2()">
-        </form> 
-    </div>
-    <!--
-        Fazer uma aplicação para a pessoa poder alterar as configuraçoes de tipo de letra, tamanho as duas palavras que vai digitar
-        Fazer uma aplicação, que pesquise as duas palavras e traga imangens ou textos, depois que a pessoa responder sim para ver
-
-    -->
-    <div>
-        <h2>Gosta de Flores?</h2>
-
-        <form action="#">
-          <label for="gosta-de-flores">Você gosta de flores?</label><br>
-          <input type="radio" id="sim" name="gosta-de-flores" value="sim">
-          <label for="sim">Sim</label><br>
-          <input type="radio" id="nao" name="gosta-de-flores" value="nao">
-          <label for="nao">Não</label><br><br>
+        <div class="lateralDireita">
+    
+            <div>
+                <h2>Apresentação Profissional</h2>
+                <p>
+                Seja bem-vindo à minha página profissional! Aqui, compartilho informações relevantes sobre minha trajetória profissional, habilidades e interesses. Sou entusiasta por desafios e apaixonado por inovação, sempre em busca de aprimorar minhas habilidades para oferecer soluções eficazes.
+                <h2>Contato</h2>
+                <p>
+                Fique à vontade para entrar em contato comigo para discutir oportunidades de colaboração, projetos ou para compartilhar ideias. Estou disponível através do <a href="mail:marcionoronha1995@gmail.com">marcionoronha1995@gmail.com</a>.
+                </p>
+                <br>
+                <p>
+                Agradeço por visitar minha página profissional e espero que possamos conectar-nos em breve!
+                </p>
+        
+            </div>
+    
+        </div>
+        <div class="lateralEsquerda">
+    
+    
       
-          <button type="submit" onclick="processarResposta()">Enviar resposta</button>
-        </form>
+        <div>
+            <h2>Um pouco do meu trabalho</h2>
+            <p>Aqui a proposta é você ter uma pequena experiência de uso, um pequeno exemplo.</p>
+            <p><br></p>
+            <p>Esta vendo, vamos ver! Escreva duas frases pequenas</p>
+            <br>
+            <form>
+                <label for="primeiraPalavra">Primeira palavra</label>
+                <input type="text" id="primeiraPalavra" name="primeiraPalavra" maxlength="50" size="50"><br>
+                <label for="segundaPalavra">Segunda palavra</label>
+                <input type="text" id="segundaPalavra" name="segundaPalavra" maxlength="50" size="50"><br><br>
+                <input type="button" value="Gravar palavras" onclick="lerDadosHTML_Palavra()">
+                
+            </form>
+            <h2>Você escreveu na primeira frase:</h2><br><p id="textoUm_Html"></p>
+            <p>Esta frase protegida por encriptação ficaria:</p>
+            <!--
+                Converter o texto para encriptado
+            -->
+            <h2>Você escreveu na segunda frase:</h2><br><p id="textoDois_Html"></p>
+            <p>Esta frase protegida por encriptação ficaria:</p>
+            <!--
+                Converter o texto para encriptado
+            --> 
+        </div>
+        <div>
+            <h2>Que horas são?</h1>
+    
+            <form id="formHora">
+                <label for="hora">Por favor, informe a hora:</label>
+                <input type="time" id="hora" name="hora" required><br><br>
+    
+                <button type="button" onclick="obterHora()">Gravar a hora</button>
+            </form>
+        </div>
+        <div>
+            <h2>Faça uma escolha, selecione uma ou mais abaixo</h2>
+            <form>
+                <input type="checkbox" name="macaEscolha" id="macaEscolha" value="Maça">
+                <label for="macaEscolha">Maça</label><br>
+                <input type="checkbox" name="batataEscolha" id="batataEscolha" value="Batata">
+                <label for="batataEscolha">Batata</label><br>
+                <input type="checkbox" name="positivoEscolha" id="positivoEscolha" value="Itenção positiva">
+                <label for="positivoEscolha">Itenção positiva</label><br>
+                <input type="checkbox" name="flexibilidadeEscolha" id="flexibilidadeEscolha" value="Flexibilidade">
+                <label for="flexibilidadeEscolha">Flexibilidade</label><br><br>
+                <input type="button" value="Gravar escolhas" onclick="lerDadosHTML_Checkbox()">
+            </form>
+            <!--
+                Veja se tem uma IA que conecta via API e gera e devolve a imagem
+            -->
+        </div>
+        <div>
+            <h2>Checkboxes</h2>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+    
+            <form>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br><br>
+                <input type="button" value="Grava a sua escolha" onclick="lerDadosHTML_Checkbox2()">
+            </form> 
+        </div>
+        <!--
+            Fazer uma aplicação para a pessoa poder alterar as configuraçoes de tipo de letra, tamanho as duas palavras que vai digitar
+            Fazer uma aplicação, que pesquise as duas palavras e traga imangens ou textos, depois que a pessoa responder sim para ver
+    
+        -->
+        <div>
+            <h2>Gosta de Flores?</h2>
+    
+            <form action="#">
+              <label for="gosta-de-flores">Você gosta de flores?</label><br>
+              <input type="radio" id="sim" name="gosta-de-flores" value="sim">
+              <label for="sim">Sim</label><br>
+              <input type="radio" id="nao" name="gosta-de-flores" value="nao">
+              <label for="nao">Não</label><br><br>
+          
+              <button type="submit" onclick="processarResposta()">Enviar resposta</button>
+            </form>
+        </div>
+        </div>
+        
     </div>
+    
+
 
 
  
