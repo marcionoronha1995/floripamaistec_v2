@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,24 +21,39 @@
             <input type="button" value="Gravar palavras" onclick="lerDadosHTML_Palavra()">
             
         </form>
-        <h2>Você escreveu no primeira palavra:</h2><br><p id="textoUM_HTML"></p>
-        <h2>Você escreveu na segunda palavra:</h2><br><p id="textoDOIS_HTML"></p>
+        <h2>Você escreveu no primeira palavra:</h2><br><p id="textoUm_Html"></p>
+        <h2>Você escreveu na segunda palavra:</h2><br><p id="textoDois_Html"></p>
     </div>
     <div>
         <h2>Faça uma escolha, selecione uma ou mais abaixo</h2>
         <form action="">
-            <input type="checkbox" name="macaEscolha" id="macaEscolha">
+            <input type="checkbox" name="macaEscolha" id="macaEscolha" value="Maça">
             <label for="macaEscolha">Maça</label><br>
-            <input type="checkbox" name="batataEscolha" id="batataEscolha">
+            <input type="checkbox" name="batataEscolha" id="batataEscolha" value="Batata">
             <label for="batataEscolha">Batata</label><br>
-            <input type="checkbox" name="positivoEscolha" id="positivoEscolha">
+            <input type="checkbox" name="positivoEscolha" id="positivoEscolha" value="Itenção positiva">
             <label for="positivoEscolha">Itenção positiva</label><br>
-            <input type="checkbox" name="flexibilidadeEscolha" id="flexibilidadeEscolha">
-            <label for="flexibilidadeEscolha">Flexibilidade</label><br>
+            <input type="checkbox" name="flexibilidadeEscolha" id="flexibilidadeEscolha" value="Flexibilidade">
+            <label for="flexibilidadeEscolha">Flexibilidade</label><br><br>
+            <input type="button" value="Gravar escolhas" onclick="lerDadosHTML_Checkbox()">
         </form>
         <!--
             Veja se tem uma IA que conecta via API e gera e devolve a imagem
         -->
+    </div>
+    <div>
+        <h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit" onclick="lerDadosHTML_Checkbox2()">
+</form> 
     </div>
     <!--
         Fazer uma aplicação para a pessoa poder alterar as configuraçoes de tipo de letra, tamanho as duas palavras que vai digitar
