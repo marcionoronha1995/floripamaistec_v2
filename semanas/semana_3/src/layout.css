@@ -1,3 +1,10 @@
+:root {
+    --laranja:#ee9b00;
+    --azul:#03045e;
+    --branco:#ffffff;
+}
+
+
 * {
     margin:0;
     padding: 0;
@@ -11,7 +18,7 @@ body{
 }
 .titulo{
     font-size: 3em;
-    color: #FCBF49;
+    color: var(--laranja);
 }
 
 .subtitulo{
@@ -22,7 +29,8 @@ body{
     width: 100vw;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
 
 }
 
@@ -84,22 +92,29 @@ body{
 
 
 #apresentacao{
-    background-color: rgb(255, 0, 242);
     width:100vw;
     height: 30vh;
+    background-color: #ffffff;
     padding: 0 4em;
     display: flex;
     align-items: center;
 }
 
 #contato{
-    background-color:#FCBF49;
+    color:#ffffff;
+    background-color:#003049;
     width:100vw;
     height: 30vh;
     padding: 0 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+
+}
+
+.contato-contatos a{
+    color:#ffffff;
 
 }
 
