@@ -29,7 +29,8 @@ body{
     width: 100vw;
     min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
 
 
 }
@@ -100,17 +101,6 @@ body{
     align-items: center;
 }
 
-#contato{
-    color:#ffffff;
-    background-color:#003049;
-    width:100vw;
-    height: 30vh;
-    padding: 0 4em;
-    display: flex;
-    justify-content:baseline;
-    
-
-}
 
 .contato-texto{
     color:#ffffff;
@@ -121,18 +111,29 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    
 }
 
-.contato-contatos a{
+#contato{
     color:#ffffff;
-    width: 100vw;
+    background-color:#003049;
+    width:100vw;
+    height: 30vh;
     padding: 0 4em;
     display: flex;
+    justify-content:space-between;   
+
+}
+.contato-contatos a{
+    color:#ffffff;
+    display: flex;
     justify-content:flex-end;
+}
 
-
-
+.contato-contatos-links {
+    background-color: #FCBF49;
+    display: flex;
+    justify-content:flex-end;
 }
 
 
