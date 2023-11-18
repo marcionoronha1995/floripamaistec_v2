@@ -21,7 +21,7 @@
     --amarelo:#FFBA08;
 }
 
-h1 {
+.h1 {
     box-sizing: 20em;
     background-color: #03071E;
     color: #F48C06;
@@ -49,7 +49,7 @@ h1 {
     align-items: center;
 }
 
-p {
+.p {
     box-sizing: 20em;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -71,5 +71,16 @@ button {
     margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 5%;
+}
+
+.forms {
+    background-color: #6A040F;
+    
+}
+
+.forms-p {
+    background-color: #03071E;
+    color:aliceblue;
+    
 }
 
