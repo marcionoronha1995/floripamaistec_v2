@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +9,25 @@
 <body> 
     <h1>Acompanhando a aula sobre DOM</h1>
     <p>Páginas de exemplos</p>
-    <form action="" id="form1">
-        <label for="nome">Informe o seu nome:</label>
-        <input type="text" id="nome">
-        <button onclick="lernome()">Submit</button>
+    <form id="form1">
+        <label for="nome">Informe o seu nome:</label><br>
+        <input 
+            type="text" 
+            placeholder="Digite o seu nome"
+            id="nome" 
+            name="nome"/><br>
+         <label for="idade">Informe a sua idade:</label><br>
+        <input 
+                type="text" 
+                id="idade" 
+                placeholder="Digite a sua idade"
+                name="idade"/><br>
+        <button type="submit">Submit</button>
 
     </form>
 
     <p id="meu_nome"></p>
+    <p id="sua_idade"></p>
     <button onclick="tamanhoTexto()">Tamanho do texto</button>
     <button onclick="corLetra()">Cor da letra</button>
     <button onclick="corFundo()">Cor de fundo</button>

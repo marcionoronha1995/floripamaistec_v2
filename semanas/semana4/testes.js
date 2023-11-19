@@ -1,0 +1,1 @@
+prompt("informe o nome")
