@@ -14,5 +14,3 @@ function mudartextodois(){
     document.getElementById("data-hora-2").innerHTML = "Data: " + Date();   
     
 };
-
-s
