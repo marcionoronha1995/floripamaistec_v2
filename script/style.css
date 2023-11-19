@@ -31,6 +31,24 @@
     width: 200px;
 }
 
+h1 {
+    height: 2em;
+    width: 100vh;
+    color:#DC2F02;
+    background-color: #03071E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p {
+    background-color: antiquewhite;
+    height: 2em;
+    width: 100vh;
+    bottom: 2em;
+    right: 3em;
+}
 
 
 

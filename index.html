@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,20 @@
 </head>
 <body>
 
-
+    <!--AQUI É O FORMULARIO
+    VOU PEDIR O NOME
+    VOU PEDIR A IDADE
+    USANDO O HTML FORMS
+    GARDANDO OS DADOS NO ID-->
     <form id="form1">
         <h1>Formulário 1 - A0001</h1>
-        <label for="nome_informado">Iinforme o seu nome: </label><br>
+        <label for="nome_informado">Informe o seu nome: </label><br>
         <input 
             type="text"
             name="nome"
             id="nome_informado"
             placeholder="Informe o seu nome"><br>
-            <label for="idade_informada">Iinforme a sua idade: </label><br>
+            <label for="idade_informada">Informe a sua idade: </label><br>
         <input 
             type="number"
             name="idade"
@@ -30,7 +34,7 @@
     <button type="submit" 
             id="botao2"
             onclick="dadosdigitados()">Dados digitados</button>
-
+    <!--AQUI É A ÁREA DA TELA QUE VAI RECEBER OS DADOS-->
     <div id="idNomeIdade" class="classeNomeIdade">
         <p id="oNome">Nome digitado</p>
         <p id="aIdade">Idade digitada</p>
@@ -56,6 +60,88 @@
     <p>
         <button onclick="caixaDuzentosPorDuzentosEstilo()">Caixa 200 por 200 no estilo</button>
     </p>
+    <!-- WINDOW .PROMPT .CONFIRM .ALERT-->
+    <h1>Window - A004</h1>
+    <h2>.prompt .confirm .alert</h2>
+    <button onclick="promptA()">prompt</button>
+    <button onclick="confirmB()">confirm</button>
+    <button onclick="alertC()">alet</button>
+
+
+    <!-- ARRAY 
+        PUSH() + ao final do array
+        POP()  - do remove o último elemento do array
+        SHIFT() - remove o primeiro elemento do array
+        UNSHIFT() + elemento ao inicio do array
+    -->
+    <h1>Array - A005 </h1>
+    <h2>Os nomes que já foram informados.</h2>
+    <p id="NomesGravados">Nomes</p>
+    <button 
+        type="submit" 
+        id="NovoNomeBeatriz"
+        onclick="novoNomeArrayBeatriz()">Novo Nome Beatriz</button>
+    <button 
+        type="submit" 
+        id="removePrimeiroNome"
+        onclick="removerPrimeiroNome()">Remove primeiro nome do array</button>
+    <button 
+        type="submit" 
+        id="fazUmaString"
+        onclick="fazUmaString()">faz uma string</button>
+
+    <h1>Numeros para a Array - A006</h1>
+    <p>Recebendo 5 números inteiros</p>
+    <button 
+    type="submit" 
+    id="digiteCincoNumeros"
+    onclick="digiteCincoNumeros()">Informe cinco números</button>
+    <div>
+        <p>Os números digitados foram: </p>
+        <p id="cincoNumerosDigitados"></p>
+        <p>Em ordem crescente são: </p>
+        <p id="cincoNumerosDigitadosC"></p>
+
+    </div>
+
+
+    <h1>Objetos - A0007</h2>
+    <h2>Vamos ver objetos</h2>
+    <form id="formObjeto1">
+        <label for="nomeUsuario">Informe o Nome do usuário:</label><br>
+        <input 
+            type="text"
+            id="nomeUsuario"
+            placeholder="Informe o nome"><br>
+        <label for="telefoneUsuario">Telefone do usuário:</label><br>
+        <input 
+            type="number"
+            id="telefoneUsuario"
+            placeholder="Informe o telefone"><br>
+        <label for="emailUsuario">Telefone do usuário:</label><br>
+        <input 
+            type="text"
+            id="emailUsuario"
+            placeholder="Informe o e-mail"><br>
+            <button type="submit" id="gravarDadosUsuario">Gravar os dados</button>
+    </form>
+    <div>
+        <h2>Dados dos usuarios</h2>
+        <p>Foram gravados os dados</p>
+        <p id="listaDadosUsuario"></p>
+    </div>
+
+
+
+
+
+
+    <p>Controle</p>
+
+
+
+
+
     
 
     <script src="js/script.js"></script>
