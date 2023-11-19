@@ -7,6 +7,55 @@
     <title>Document</title>
 </head>
 <body>
+
+
+    <form id="form1">
+        <h1>Formulário 1 - A0001</h1>
+        <label for="nome_informado">Iinforme o seu nome: </label><br>
+        <input 
+            type="text"
+            name="nome"
+            id="nome_informado"
+            placeholder="Informe o seu nome"><br>
+            <label for="idade_informada">Iinforme a sua idade: </label><br>
+        <input 
+            type="number"
+            name="idade"
+            id="idade_informada"
+            placeholder="Informe a sua idade"><br>
+        <button type="submit" id="botao1">Submit</button>
+    </form>
+    <br>
+    <h1>Dados do formuário - A002</h1>
+    <button type="submit" 
+            id="botao2"
+            onclick="dadosdigitados()">Dados digitados</button>
+
+    <div id="idNomeIdade" class="classeNomeIdade">
+        <p id="oNome">Nome digitado</p>
+        <p id="aIdade">Idade digitada</p>
+    </div>
+    
+    <h1>Manipulando DOM - A003</h1>
+    <p>Botões para mudar as caracteristicas do HTML</p>
+    <p>
+        <button onclick="fundoamarelo()">Fundo amarelo</button>
+    </p>
+    <p>
+        <button onclick="fundoazul()">Fundo azul</button>
+    </p>
+    <p>
+        <button onclick="caixaCemPorCem()">Caixa 100 por 100 na classe</button>
+    </p>
+    <p>
+        <button onclick="caixaDuzentosPorDuzentos()">Caixa 200 por 200 na classe</button>
+    </p>
+    <p>
+        <button onclick="caixaCemPorCemEstilo()">Caixa 100 por 100 no estilo</button>
+    </p>
+    <p>
+        <button onclick="caixaDuzentosPorDuzentosEstilo()">Caixa 200 por 200 no estilo</button>
+    </p>
     
 
     <script src="js/script.js"></script>

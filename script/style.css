@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+}
+
+:root {
+    --azul:#03071E;
+    --azulcomvermelho:#370617;
+    --vermelhomais:#6A040F;
+    --vermelhomenos:#9D0208;
+    --vermelho:#D00000;
+    --laranjamais:#DC2F02;
+    --laranja:#E85D04;
+    --laranjamenos:#F48C06;
+    --amarelomais:#FAA307;
+    --amarelo:#FFBA08;
+}
+
+.caixaCemPorCem {
+    height: 100px;
+    width: 100px;
+
+}
+
+.caixaDuzentosPorDuzentos {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
+
