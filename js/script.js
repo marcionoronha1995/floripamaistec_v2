@@ -11,11 +11,11 @@ let idade;
 let oNome;
 let aIdade;
 
-const form1 = document.getElementById("form1");
-form1.addEventListener("submit", function (e){
-    lerformulario(e);
+const formNomeIdade = document.getElementById("formNomeIdade");
+formNomeIdade.addEventListener("submit", function (e){
+    lerformularioNomeIdade(e);
 });
-function lerformulario(event){
+function lerformularioNomeIdade(event){
     event.preventDefault();
     //E AQUI QUE ESTOU PASSANDO O VALOR DE 
     //NOME_INFORMADO
@@ -179,6 +179,8 @@ function digiteCincoNumeros(){
     }
 }
 
+
+
 //A007
 //OBJETOS
 //DECLARANDO UMA CHAVE
@@ -188,6 +190,27 @@ const usuarioDados = {
     email:"",
 
 }
+
+function gravarDadosUsuario(){
+
+}
+
+const formObjeto1 = document.getElementById("formObjeto1");
+formObjeto1.addEventListener("submit", function (e){
+    lerformularioObj1(e);
+});
+function lerformularioObj1(event){
+    event.preventDefault();
+    //PASSANDO O DADO DO NOME
+    usuarioDados.nome = document.getElementById("nomeUsuario").value;
+    //PASSANDO O DADO DO TELEFONE
+    usuarioDados.telefone = document.getElementById("telefoneUsuario").value;
+    //PASSANDO O DADO DO EMAIL
+    usuarioDados.email = document.getElementById("emailUsuario").value;
+    //APRESENTANDO OS DADOS DO OBJETO NA PAGINA HTML
+    document.getElementById("listaDadosUsuario").innerHTML ="<p> Nome: " + usuarioDados.nome;
+}
+
 
 
 
